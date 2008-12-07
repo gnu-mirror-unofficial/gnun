@@ -1,0 +1,200 @@
+<!--#include virtual="/server/header.html" -->
+<title>GNUnited Nations - GNU Project - Free Software Foundation</title>
+<!--#include virtual="/server/banner.html" -->
+<h2>GNUnited Nations</h2>
+
+<!-- This is the template document for GNU web pages.  We use -->
+<!-- server side includes (#include) for common elements, for -->
+<!-- instance, the very first line of the file.  If you're reading -->
+<!-- this in its expanded form, you can retrieve the original source,  -->
+<!-- with the SSI statements intact, from -->
+<!-- http://web.cvs.savannah.gnu.org/viewvc/*checkout*/www/server/standards/boilerplate.html?root=www&content-type=text%2Fplain
+-->
+
+<!-- This document uses XHTML 1.0 Strict, but may be served as -->
+<!-- text/html.  Please ensure that markup style considers -->
+<!-- appendix C of the XHTML 1.0 standard. See validator.w3.org. -->
+
+<!-- Please ensure links are consistent with Apache's MultiView. -->
+<!-- Change include statements to be consistent with the relevant -->
+<!-- language, where necessary. -->
+
+<h3>Introduction to GNUnited Nations</h3>
+
+<p>
+GNUnited Nations (GNUN) is a build system for www.gnu.org
+translations.  It generates a PO template (<tt>.pot</tt>) for an
+original HTML article, and merges the changes into all translations,
+which are maintained as PO (<tt>.po</tt>) files.  Finally, it
+regenerates the translations in HTML format.
+</p>
+
+<p>
+The goal of GNUN is to make maintenance of gnu.org translations easier
+and to avoid the effect of seriously outdated translations when a
+particular team becomes inactive.
+</p>
+
+<p>Currently, GNUN is pretty much tied to the layout and structure of
+GNU Project's website and is not suitable for other sites.
+</p>
+
+<h3>Downloading GNUN</h3>
+
+<p>
+GNUN can be found on
+<a href="http://ftp.gnu.org/gnu/gnun/">http://ftp.gnu.org/gnu/gnun/</a>
+[via http] and
+<a href="ftp://ftp.gnu.org/gnu/gnun/">ftp://ftp.gnu.org/gnu/gnun/</a> 
+[via FTP].
+It can also be found on one of <a href="/prep/ftp.html">our FTP mirrors</a>;
+please use a mirror if possible.
+</p>
+
+<p>
+You can also checkout GNUN from CVS:</p>
+<pre>
+cvs -z3 -d:pserver:anonymous@cvs.savannah.gnu.org:/sources/trans-coord co trans-coord/gnun
+</pre>
+
+<h3>Documentation</h3>
+
+<p>
+GNUN documentation can be found at
+<a href="/software/gnun/manual/">http://www.gnu.org/software/gnun/manual/</a>.
+You may also find more information about GNUN by running
+<em>info&nbsp;gnun</em> on your system.
+</p>
+
+<h3>Mailing Lists</h3>
+
+<p>
+GNUN has one mailing list: 
+<a href="mailto:trans-coord-devel@gnu.org">
+&lt;trans-coord-devel@gnu.org&gt;</a>, which is used to discuss all
+aspects of GNUN.  <a href="mailto:bug-gnun@gnu.org">
+ &lt;bug-gnun@gnu.org&gt;</a> is an alias.
+</p>
+
+<p>
+Announcements about GNUN releases are being made on
+<a href="mailto:trans-coord-news@gnu.org">
+&lt;trans-coord-news@gnu.org&gt;</a>.  You can use Mailman's
+&ldquo;topics&rdquo; by subscribing to the <em>gnun</em> topic &mdash;
+that way you will not receive other messages which might not be of
+interest.
+</p>
+
+<p>
+To subscribe to these or any GNU mailing lists, please send an empty
+mail with a Subject: header line of just &ldquo;subscribe&rdquo; to
+the relevant -request list.  For example, to subscribe yourself to GNU
+announcement list, you would send mail
+to <a href="mailto:info-gnu-request@gnu.org">
+&lt;info-gnu-request@gnu.org&gt;</a> with no body and a Subject:
+header line of just &ldquo;subscribe&rdquo;.  Or you can use
+the <a href="http://lists.gnu.org/mailman/listinfo/info-gnu">mailing
+list web interface</a>.
+</p>
+
+<h4>Request an Enhancement</h4>
+
+<p>
+If you would like any new feature to be included in future versions of
+GNUN, please send a request to
+<a href="mailto:bug-gnun@gnu.org">&lt;bug-gnun@gnu.org&gt;</a>.
+</p>
+
+<p>
+Please remember that development of GNUN is a volunteer effort, and
+you can also contribute to its development.  For information about
+contributing to the GNU Project, please read <a href="/help/">How to
+help GNU</a>.
+</p>
+
+<h3>Report a Bug</h3>
+
+<p>
+If you think you have found a bug in GNUN, then please send
+as complete a report as possible to
+<a href="mailto:bug-gnun@gnu.org">&lt;bug-gnun@gnu.org&gt;</a>.
+</p>
+
+<h3>Maintainer</h3>
+
+<p>
+GNUN is currently being maintained by Yavor Doganov
+<a href="mailto:yavor@gnu.org">&lt;yavor@gnu.org&gt;</a>.
+</p>
+
+
+<!-- If needed, change the copyright block at the bottom. In general, -->
+<!-- all pages on the GNU web server should have the section about    -->
+<!-- verbatim copying.  Please do NOT remove this without talking     -->
+<!-- with the webmasters first. --> 
+<!-- Please make sure the copyright date is consistent with the document -->
+<!-- and that it is like this "2001, 2002" not this "2001-2002." -->
+</div><!-- for id="content", starts in the include above -->
+<!--#include virtual="/server/footer.html" -->
+<div id="footer">
+
+<p>
+Please send FSF &amp; GNU inquiries to 
+<a href="mailto:gnu@gnu.org"><em>gnu@gnu.org</em></a>.
+There are also <a href="/contact/">other ways to contact</a> 
+the FSF.
+<br />
+Please send broken links and other corrections or suggestions to
+<a href="mailto:bug-gnun@gnu.org"><em>bug-gnun@gnu.org</em></a>.
+</p>
+
+<p>
+Please see the 
+<a href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and submitting
+translations of this article.
+</p>
+
+<p>
+Copyright &copy; 2008 Free Software Foundation, Inc.,
+</p>
+<address>51 Franklin St, Fifth Floor, Boston, MA 02110, USA</address>
+<p>Verbatim copying and distribution of this entire article are
+permitted worldwide, without royalty, in any medium, provided this
+notice, and the copyright notice, are preserved.
+</p>
+
+<p>
+Updated:
+<!-- timestamp start -->
+$Date: 2008/12/07 12:19:00 $
+<!-- timestamp end -->
+</p>
+</div>
+
+<div id="translations">
+<h4>Translations of this page</h4>
+
+<!-- Please keep this list alphabetical by language code. -->
+<!-- Comment what the language is for each type, i.e. de is German. -->
+<!-- Write the language name in its own language (Deutsch) in the text. -->
+<!-- If you add a new language here, please -->
+<!-- advise web-translators@gnu.org and add it to -->
+<!--  - /home/www/html/server/standards/README.translations.html -->
+<!--  - one of the lists under the section "Translations Underway" -->
+<!--  - if there is a translation team, you also have to add an alias -->
+<!--  to mail.gnu.org:/com/mailer/aliases -->
+<!-- Please also check you have the language code right; see: -->
+<!-- http://www.loc.gov/standards/iso639-2/php/code_list.php -->
+<!-- If the 2-letter ISO 639-1 code is not available, -->
+<!-- use the 3-letter ISO 639-2. -->
+<!-- Please use W3C normative character entities. -->
+
+<ul class="translations-list">
+<!-- English -->
+<li><a href="/software/gnun/gnun.html">English</a>&nbsp;[en]</li>
+</ul>
+</div>
+</div>
+</body>
+</html>
